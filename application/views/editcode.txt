@@ -1,0 +1,7 @@
+<div class="row-fluid well">
+	<?php 
+		echo $product_details[0]['title'];
+		echo $product_details[1]['value'];
+	var_dump($product_details);
+	print_r($product_details);?>
+</div>

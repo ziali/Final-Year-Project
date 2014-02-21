@@ -1,0 +1,86 @@
+		@import url('http://fonts.googleapis.com/css?family=Ubuntu:500');
+		@import url('http://weloveiconfonts.com/api/?family=entypo');
+		body {
+			font-family: 'Ubuntu', sans-serif;
+		}
+		header {
+			padding-top: 20px; /*To make the header objects fall down a bit*/
+			background: #BABABA;
+			color: #000000;
+		}
+		#search_form {
+			padding-top: 30px;
+			padding-left: 40px;
+			padding-bottom: 40px;
+		}
+		#basket_link {
+			margin-top: 10px;
+		}
+		.price {
+			color: red;
+		}
+		.thumbnail {
+			margin-bottom: 10px;
+		}
+		.thumbnail:hover{
+			background-color: #BABABA;
+		}
+		.navbar{
+			z-index: 1;
+		}
+		#basket_container{
+			padding-bottom: 10px;
+		}
+		/*Remove left/right margins from .row to eliminate unnecessary side gaps.*/
+		.row{
+			margin-right: 0px;
+			margin-left: 0px;
+		}
+		.container{
+			margin-bottom: -120px; /*This margin and the height for .footer must be the same value.*/
+		}
+		.footer{
+			height: 120px;
+			background-color: #BABABA;
+			padding-top: 10px;
+			text-align: left;
+		}
+		
+		.footer a {
+			color: #4E264F;
+		}
+		
+		address{
+			text-align: left;
+			font-size: 90%;
+		}
+
+		.social{
+		  display: inline-block;
+		  width: 70px;
+		  height: 70px;
+		  margin: 0 10px;
+		  line-height: 70px;
+		  font-family: Entypo;
+		  font-size: 35px;
+		  text-align: center;
+		  color: #bbb;
+		  border-radius: 50%;
+		  background: #eee;
+		  transition: color .5s;
+		}
+		
+		.g-plus:hover {
+			color: #d34836;
+			cursor: pointer;
+		}
+		
+		.twitter:hover {
+			color: #4099ff;
+			cursor: pointer;
+		}
+
+		.facebook:hover{
+		  color: #3B5998;
+		  cursor: pointer;
+		}
